@@ -45,10 +45,10 @@ function App() {
 
       <div className="container  my-3">
         <Routes>
-        <Route path="/about" element={<About  mode={mode}/>} >
+          <Route path="/about" element={<About mode={mode} />} >
           </Route>
           <Route path="/" element={<Textform heading="Enter your text to Analyze" mode={mode} showAlert={showAlert} />} >
-            
+
           </Route>
         </Routes>
 
